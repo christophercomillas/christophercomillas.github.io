@@ -2,7 +2,7 @@
 
 ### Nginx
 
-Linux restart Nginx webserver, run:
+If you are using systemd based Linux distro:
 ```markdown
 
 
