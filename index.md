@@ -1,5 +1,9 @@
 ### Basic
-
+To restart from the command-line, run this command:
+If you are using systemd based Linux distro:
+```markdown
+$ sudo reboot
+```
 ### Nginx
 
 If you are using systemd based Linux distro:
