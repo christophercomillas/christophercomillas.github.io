@@ -8,6 +8,11 @@ We will run two find commands to set the correct permissions on directories and 
 $ sudo find /var/www/ -type d -exec chmod 750 {} \;
 $ sudo find /var/www/ -type f -exec chmod 640 {} \;
 ```
+Change file permisson recursive.
+```markdown
+sudo chmod 777 -R /var/log/
+```
+sudo chmod 777 -R /var/log/nginx
 ### Nginx
 
 If you are using systemd based Linux distro:
